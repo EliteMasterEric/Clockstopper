@@ -1,0 +1,2 @@
+gradlew genSources idea
+pause
