@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "RER",
+        "ECE",
+        "RER"
+    ],
+    "key": {
+        "R": { "item": "minecraft:redstone_block" },
+        "C": { "item": "minecraft:clock" },
+        "E": { "item": "minecraft:eye_of_ender" }
+    },
+    "result": { "item": "clockstopper:stopwatch" }
+}

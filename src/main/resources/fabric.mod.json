@@ -1,15 +1,26 @@
 {
-  "id": "modid",
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
-  "version": "1.0.0",
+  "id": "clockstopper",
+  "name": "Clockstopper",
+  "description": "What if you had the power to stop time?",
+  "authors": [
+    "EliteMasterEric"
+  ],
+  "links": {
+    "homepage": "https://minecraft.curseforge.com/projects/clockstopper",
+    "issues": "https://github.com/MasterEric/Clockstopper/issues",
+    "sources": "https://github.com/MasterEric/Clockstopper"
+  },
+  "version": "1.0.0-fabric",
   "side": "universal",
-  "initializer": "net.fabricmc.example.ExampleMod",
+  "initializers": [
+    "com.mastereric.clockstopper.Clockstopper",
+    "com.mastereric.clockstopper.client.ClientClockstopper"
+  ],
   "requires": {
     "fabric": "*"
   },
   "mixins": {
-    "client": "modid.client.json",
-    "common": "modid.common.json"
+    "common": "clockstopper.common.json",
+    "client": "clockstopper.client.json"
   }
 }

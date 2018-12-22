@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.mastereric.clockstopper.mixin.common",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "LivingEntityTimeMixin",
+    "EntityTimeMixin",
+    "WorldTimeMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

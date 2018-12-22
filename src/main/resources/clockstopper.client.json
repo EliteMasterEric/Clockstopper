@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.mastereric.clockstopper.mixin.client",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "LivingEntityRendererTimeMixin",
+    "EntityRenderDispatcherTimeMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
